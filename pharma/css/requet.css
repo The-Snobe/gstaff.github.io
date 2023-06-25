@@ -1,0 +1,100 @@
+/* Styles pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  h3 {
+    color: #4CAF50;
+    font-size: 36px;
+  }
+  
+  div {
+    margin: 0 auto;
+    max-width: 900px;
+  }
+  
+  /* Styles pour le formulaire */
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    margin-right: 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ddd;
+  }
+  
+  input[type="submit"] {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #4CAF50;
+    cursor: pointer;
+  }
+  
+  /* Styles pour les tableaux */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Styles pour les boutons */
+  button {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #bt {
+    margin-right: 10px;
+    background-color: #4CAF50;
+  }
+  
+  /* Styles pour le lien de déconnexion */
+  .btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #d32f2f;
+  }
+  
